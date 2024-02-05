@@ -1,10 +1,12 @@
 programa {
     funcao inicio(){
-        inteiro n, dobro
+        inteiro b,h,area
 
-        escreva ("Informe um número: ")
-        leia (n)
-        dobro = n * 2
-        escreva ("O dobro é ",dobro)
+        escreva ("Informe a base: ")
+        leia (b)
+        escreva ("Informe a altura: ")
+        leia (h)
+        area = base * altura
+        escreva ("O area é ",area)
     }
 }
